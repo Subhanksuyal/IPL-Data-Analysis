@@ -1,106 +1,148 @@
-🏏 IPL Data Analysis using Python
+# 🏏 IPL Data Analysis (Python + Power BI Dashboard)
 
-This project analyzes 1169 IPL matches to explore match trends and understand whether the toss significantly impacts match outcomes.
+This project analyzes 1169 IPL matches to explore match trends, understand toss impact, and visualize team performance using Python and Power BI.
 
-The analysis is performed using Python, Pandas, and Matplotlib.
+The project combines statistical analysis with an interactive dashboard to provide meaningful insights into IPL match outcomes.
 
-📌 Project Overview
+---
+
+# 📌 Project Overview
 
 This project focuses on:
 
-Toss decision distribution
+- Toss decision distribution
+- Impact of toss on match results
+- Defending vs chasing success comparison
+- Season-wise match growth analysis
+- Team performance analysis
+- Venue and city analysis
 
-Impact of toss on match results
+---
 
-Defending vs chasing success comparison
+# 📊 Power BI Dashboard
 
-Season-wise match growth analysis
+An interactive dashboard was built using Power BI to visualize IPL match insights.
 
-📊 Dataset Information
+## Dashboard Features
 
-Total Matches: 1169
+- Matches won by each team
+- Toss decision distribution
+- Matches per season trend
+- Win type analysis (runs vs wickets)
+- Top venues and cities
+- Interactive season filter
+- KPI card showing total matches
 
-Total Columns: 23
+The dashboard allows users to explore trends and compare team performance dynamically.
 
-No duplicate records found
+---
 
-Logical missing values handled appropriately
+# 📊 Dashboard Preview
 
-Key Columns Used:
+![Dashboard Preview](dashboard.png)
 
-season
+---
 
-toss_winner
+# 📊 Dataset Information
 
-toss_decision
+- Total Matches: 1169  
+- Total Columns: 23  
+- No duplicate records found  
+- Missing values handled appropriately  
 
-match_winner
+## Key Columns Used
 
-win_by_runs
+- season  
+- toss_winner  
+- toss_decision  
+- match_winner  
+- win_by_runs  
+- win_by_wickets  
+- player_of_match  
+- venue  
+- city  
 
-win_by_wickets
+---
 
-player_of_match
+# 🔍 Key Findings
 
-venue and city
+- Toss winner won approximately 51.58% of matches  
+- Teams chasing won 615 matches  
+- Teams defending won 531 matches  
+- Fielding is the preferred toss decision  
+- IPL remains highly competitive despite toss influence  
 
-🔍 Key Findings
+---
 
-Toss winner won approximately 51.58% of matches
+# 📈 Visualizations Included (Python)
 
-Teams chasing won 615 matches
+- Toss Decision Distribution  
+- Matches per Season  
+- Toss Impact Analysis  
 
-Teams defending won 531 matches
+---
 
-Fielding is the preferred toss decision
+# 🛠 Tools Used
 
-IPL remains highly competitive despite toss influence
+- Python  
+- Pandas  
+- Matplotlib  
+- Power BI  
+- Data Visualization  
 
-📈 Visualizations Included
+---
 
-Toss Decision Distribution (Bar Chart)
-
-Number of Matches Per Season (Bar Chart)
-
-🛠 Tools Used
-
-Python
-
-Pandas
-
-Matplotlib
-
-📂 Project Structure
-IPL-Data-Analysis/
-│
-├── ipl_analysis.py
-├── ipl_matches_data.csv
-└── README.md
-▶ How to Run the Project
+# ▶ How to Run the Python Analysis
 
 Install required libraries:
 
+```bash
 pip install pandas matplotlib
+```
 
 Run the script:
 
+```bash
 python ipl_analysis.py
+```
 
 The script will:
 
-Display dataset information
+- Load and clean dataset  
+- Perform statistical analysis  
+- Generate visualizations  
+- Display insights  
 
-Perform statistical analysis
+---
 
-Generate visualizations
+# 📂 Project Structure
 
-Print final conclusions
+```
+IPL-Data-Analysis/
+│
+├── IPL-Data-Analysis-Dashboard.pbix
+├── dashboard.png
+├── ipl_analysis.py
+├── ipl_matches_data.csv
+└── README.md
+```
 
-📌 Conclusion
+---
+
+# 📌 Conclusion
 
 The toss provides only a slight statistical advantage (~51%), indicating that overall team performance plays a larger role in match outcomes. Chasing appears slightly more favorable, but IPL remains competitively balanced.
 
-👨‍💻 Author
+The Power BI dashboard enhances this analysis by providing interactive visual insights and allows deeper exploration of team and match trends.
 
-Subhank Suyal
-BSc Data Science Student
+---
+
+# 👨‍💻 Author
+
+**Subhank Suyal**  
+BSc Data Science Student  
+Aspiring Data Analyst  
+
+---
+
+# ⭐ If you found this project useful, consider giving it a star!
